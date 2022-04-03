@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 2-Task 1: Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class=" name">Jayraj Parki</div>
+            <div class="content">
+                <div class="screen">
+                    <div  class="input">
+                        <h3 id="input">0</h3>
+                    </div>
+                    <div  class="output">
+                        <h1  id="output"></h1>
+                    </div>
+                </div>
+                <div class="actions">
+                    <button onclick="addToInput('(')" class="btn">(</button>
+                    <button onclick="addToInput(')')" value=")" class="btn">)</button>
+                    <button onclick="showAns()" onclick="showPreviousAns" value="0" class="btn ans">ans</button>
+                    <button onclick="deleteOutput()" class="btn del">del</button>
+                    <button onclick="clearOutput()" class="btn clear">clear</button>
+                    <button onclick="addToInput('7')" value="7" class="btn number">7</button>
+                    <button onclick="addToInput('8')" value="8" class="btn number">8</button>
+                    <button onclick="addToInput('9')" value="9" class="btn number">9</button>
+                    <button onclick="addToInput('%')" value="%" class="btn">%</button>
+                    <button onclick="getSqrt()" class="btn">&#8730;</button>
+                    <button onclick="addToInput('4')" class="btn number">4</button>
+                    <button onclick="addToInput('5')" class="btn number">5</button>
+                    <button onclick="addToInput('6')" class="btn number">6</button>
+                    <button onclick="addToInput('*')" class="btn">&Cross;</button>
+                    <button onclick="addToInput('/')" class="btn">&div;</button>
+                    <button onclick="addToInput('1')" class="btn number">1</button>
+                    <button onclick="addToInput('2')" class="btn number">2</button>
+                    <button onclick="addToInput('3')" class="btn number">3</button>
+                    <button onclick="addToInput('+')" class="btn ">&plus;</button>
+                    <button onclick="addToInput('-')" class="btn">&minus;</button>
+                    <button onclick="addToInput('.')" class="btn">.</button>
+                    <button onclick="addToInput('0')" class="btn number">0</button>
+                    <button onclick="changeSign()" class="btn">&PlusMinus;</button>
+                    <button onclick="showResult()" class="btn enter">Enter</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./index.js">
+
+    </script>
+</body>
+
+</html>
